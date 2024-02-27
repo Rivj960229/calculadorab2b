@@ -1,6 +1,5 @@
-header img{
-    width: 30%;
-    padding: 5px;
+header img {
+    width: 25%;
 }
 
 header{
@@ -8,23 +7,16 @@ header{
     background-color: #ff7b00;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.titulob2b{
+body{
     text-align: center;
 }
 
-.parrafo1{
-    text-align: center;
-    text-transform: uppercase;
+header img{
+    width: 25%;
 }
 
 .calculator {
-    max-width: 600px;
+    width: 300px;
     margin: 50px auto;
     padding: 20px;
     border: 7px solid #ccc;
@@ -32,9 +24,17 @@ body {
     text-align: center;
 }
 
-button {
+.calculator h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.calculator div {
+    margin-bottom: 10px;
+}
+
+.calculator button {
     padding: 10px 20px;
-    margin-top: 10px;
     background-color: #3d00a0;
     color: #fff;
     border: none;
@@ -42,24 +42,20 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+.calculator button:hover {
     background-color: #000000;
 }
 
-.primerMes{
-    text-align: center;
-}
-
-.primerMes button{
+.regresar button{
     padding: 10px 20px;
     background-color: #3d00a0;
     color: #fff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;  
 }
 
-.primerMes button:hover{
+.regresar button:hover {
     background-color: #000000;
 }
 
@@ -69,7 +65,5 @@ footer {
     font-size: 10px;
     background-color: purple;
     color: white;
-    padding: 20px 0; /* Ajusta el espacio entre el texto y los bordes */
+    padding: 50px 0; /* Ajusta el espacio entre el texto y los bordes */
 }
-
-

@@ -16,9 +16,11 @@ function calcularDescuento() {
                 descuento = 0.2;
                 break;
             case 49990:
+                descuento = 0.3;
+                break;
             case 59990:
             case 65990:
-                descuento = 0.3;
+                descuento = 0.4;
                 break;
         }
         costoPorLineaConDescuento = plan * (1 - descuento);
